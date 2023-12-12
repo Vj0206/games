@@ -1,0 +1,38 @@
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.col
+{
+ display: flex;
+ flex-direction: column;
+ flex: auto;
+ align-items: center;
+ justify-content: center;
+}
+
+#player
+{
+    margin: auto;
+
+}
+.reset
+{
+    padding:10px 10px ;
+    border: 1px silver;
+    border-radius: 10 px;
+    background-color: aqua;
+    color: honeydew;
+}
+.rollnow{
+    padding: auto;
+    border: 1px skyblue;
+    border-radius: 10px;
+    background-color:blueviolet;
+    color: pink;
+}
